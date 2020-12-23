@@ -2,7 +2,7 @@
 *Créer un tout petit site dédié à l'affichage d'articles.*
 
 ##Objectif: Optimisation de l'architecture, CRUD BDD, upload d'image
---
+
 
 
 #Les Pages:
@@ -59,6 +59,7 @@
 
 ##BDD
 ---
+
 ###article
 - id
 - title
