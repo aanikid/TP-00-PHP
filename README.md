@@ -4,11 +4,10 @@
 ##Objectif: Optimisation de l'architecture, CRUD BDD, upload d'image
 
 
-#Les Pages
--------
+#Les Pages:
 
 ##Front Office
---
+---
 
 ###home
    - carousel d'article en selection
@@ -56,10 +55,8 @@
    - modifier un article 
    - supprimer un article
 
-
-
 ##BDD
--------
+---
 ###article
 - id
 - title
@@ -70,3 +67,10 @@
 - createdBy (l'auteur)
 - createdAt (date de creation)
 - publishedAt (date de publication)
+
+##Contributor
+---
+ - Fatima MEDKOR
+ - Loubna MEKDADI
+ - Adrien BOUDET
+ - Lotfi AANIKID
