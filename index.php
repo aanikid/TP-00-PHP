@@ -9,10 +9,6 @@ include_once HEADER_PATH;
 
 
 
-<<<<<<< HEAD
-<!--===============================================================================================================================-->
-<?php include_once FOOTER_PATH; ?>
-=======
 
   <!-- 
         Gérer ici tous les elements a integrer avant de découper la page en component
@@ -88,4 +84,3 @@ include_once HEADER_PATH;
 </body>
 
 </html>
->>>>>>> b55919fd02b54a94c30df0fa35cbe330d09d899e
