@@ -16,15 +16,16 @@
 
 <body>
     <!-- appel du layout header -->
-    <?php include "layouts/header.php" ?>
+    <?php include_once "layouts/header.php" ?>
 
     <!-- liste des articles -->
     <div class="container">
     
         <!-- article -->
-        <div class="row justify-content-center border border-dark">
+        <div class="row justify-content-center border border-info rounded mt-3">
             <!-- photo de l'article -->
             <div class="col-4 p-0">
+            <img src="assets/img/newsup-article1.png" alt="chien tenant un journal">
             </div>
             <!-- titre et résumé de l'article -->
             <div class="col-8">
@@ -34,6 +35,8 @@
             <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam eaque repudiandae iste similique Lorem ipsum dolor sit,
                 amet consectetur adipisicing elit. Ullam eaque repudiandae iste similique
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur qui dicta cupiditate deserunt labore tenetur eaque neque,
+                maiores dolorem nulla hic necessitatibus saepe adipisci ab iste, a, assumenda quo laudantium?
             </p>
             </div>
         </div>
@@ -42,7 +45,7 @@
 
 
     <!-- appel du layout footer -->
-    <?php include "layouts/footer.php" ?>
+    <?php include_once "layouts/footer.php" ?>
 
 </body>
 </html>
