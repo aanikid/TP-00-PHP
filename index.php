@@ -9,10 +9,6 @@ include_once HEADER_PATH;
 
 
 
-<<<<<<< HEAD
-<!--===============================================================================================================================-->
-<?php include_once FOOTER_PATH; ?>
-=======
 
   <!-- 
         Gérer ici tous les elements a integrer avant de découper la page en component
@@ -24,7 +20,7 @@ include_once HEADER_PATH;
   <header>
     <!-- navbar -->
     <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-light bg-light shadow">
-      <a class="navbar-brand" href="#">NewsUp</a>
+      <a class="navbar-brand" href="#"> <img src="assets/img/newsup-logo.png" alt="logo"></a>
       <!-- toggle button -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -88,4 +84,3 @@ include_once HEADER_PATH;
 </body>
 
 </html>
->>>>>>> b55919fd02b54a94c30df0fa35cbe330d09d899e
