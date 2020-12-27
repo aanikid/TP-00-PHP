@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&family=Roboto:wght@300&display=swap');
+/*
+ * 00-General Style 
+ */
+ h1,h2,h3,h4{
+     font-family: 'Raleway', sans-serif
+ }
+ body{
+     
+     font-family: 'Roboto', sans-serif;
+ }
