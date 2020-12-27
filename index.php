@@ -25,7 +25,7 @@
   <header>
     <!-- navbar -->
     <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-light bg-light shadow">
-      <a class="navbar-brand" href="#">NewsUp</a>
+      <a class="navbar-brand" href="#"> <img src="assets/img/newsup-logo.png" alt="logo"></a>
       <!-- toggle button -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
