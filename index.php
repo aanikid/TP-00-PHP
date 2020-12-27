@@ -18,6 +18,8 @@
         ex: header.php, footer.php
     -->
     
+<<<<<<< HEAD
+=======
     
 <!-- header -->
 <header>
@@ -70,6 +72,7 @@
 </footer>
 <!-- end of footer -->
 
+>>>>>>> 3feb4e95f233707c86ac251acb1bf9f0c46b4001
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
