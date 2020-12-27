@@ -16,6 +16,7 @@
         Gérer ici tous les elements a integrer avant de découper la page en component
         ex: header.php, footer.php
     -->
+    
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
