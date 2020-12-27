@@ -18,13 +18,11 @@
         ex: header.php, footer.php
     -->
     
-<<<<<<< HEAD
-=======
     
 <!-- header -->
 <header>
    <!-- navbar -->
-   <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-light bg-light ">
+  <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-light bg-light ">
   <a class="navbar-brand" href="#">NewsUp</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -44,6 +42,7 @@
 
 
    <!-- image header -->
+   
    <!-- end image header -->
 
 </header>
@@ -72,7 +71,6 @@
 </footer>
 <!-- end of footer -->
 
->>>>>>> 3feb4e95f233707c86ac251acb1bf9f0c46b4001
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
