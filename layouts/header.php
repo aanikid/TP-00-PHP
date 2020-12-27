@@ -65,6 +65,5 @@
     <!-- formulaire register -->
     <!-- end formulaire register -->
 
-  </main>
-  <!-- end of main -->
+
 

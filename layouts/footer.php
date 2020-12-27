@@ -1,3 +1,5 @@
+</main>
+<!-- end of main -->
 <!-- footer component -->
 <!-- footer -->
 <footer>
