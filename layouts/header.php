@@ -38,8 +38,7 @@
           <a class="nav-link active " href="#">Acceuil<span class="sr-only">(current)</span></a>
           <a class="nav-link " href="#">Articles</a>
           <a class="nav-link" href="#">Inscription</a>
-          <a class="nav-link" href="#">Login</a>
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+          <a class="nav-link" data-toggle="modal" data-target="#loginModal">Connexion</a>
         </div>
       </div>
       <!-- end of navbar items -->
