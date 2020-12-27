@@ -2,31 +2,10 @@
 /*
  * 00-General Style 
  */
- :root{
-    /*variable*/
-    --bgColor:  #DADADF;
- }
-
  h1,h2,h3,h4{
      font-family: 'Raleway', sans-serif
  }
  body{
-     font-size: 16px;
+     
      font-family: 'Roboto', sans-serif;
  }
-
-/*
- * 01-Header
- */
-
- /*
- * 02-Main
- */
-
- /*
- * 03-Footer
- */
-
- /*
- * 04-Media querie
- */
