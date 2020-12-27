@@ -9,6 +9,11 @@
 </footer>
 <!-- end of footer -->
 
+<!-- Modals du site -->
+<div class="main-modals">
+    <?php include_once LOGIN_MODAL_PATH ?>
+</div>
+<!-- Fin Modals du site -->
 
 <!-- JavaScript Bundle with Popper -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
