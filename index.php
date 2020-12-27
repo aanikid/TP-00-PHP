@@ -1,19 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+//include du ficher config
+include_once('./config/config.php');
+//include de header.php
+include_once HEADER_PATH;
+?>
+<!--===============================================================================================================================-->
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Bootstrap style -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-  <!-- Perso Style -->
-  <link rel="stylesheet" href="assets/css/style.css">
 
-  <title>TP-00</title>
-</head>
 
-<body>
 
+<<<<<<< HEAD
+<!--===============================================================================================================================-->
+<?php include_once FOOTER_PATH; ?>
+=======
 
   <!-- 
         Gérer ici tous les elements a integrer avant de découper la page en component
@@ -89,3 +88,4 @@
 </body>
 
 </html>
+>>>>>>> b55919fd02b54a94c30df0fa35cbe330d09d899e
