@@ -12,11 +12,51 @@
 </head>
 <body>
 
+
     <!-- 
         Gérer ici tous les elements a integrer avant de découper la page en component
         ex: header.php, footer.php
     -->
     
+<<<<<<< HEAD
+=======
+    
+<!-- header -->
+<header>
+   <!-- navbar -->
+   <!-- end navbar -->
+
+
+   <!-- image header -->
+   <!-- end image header -->
+
+</header>
+<!-- end header -->
+
+<!-- main -->
+<main>
+
+   <!-- carousel -->
+   <!-- end carousel -->
+
+   <!-- exemple article -->
+   <!-- end exemple article -->
+
+   <!-- formulaire register -->
+   <!-- end formulaire register -->
+
+</main>
+<!-- end of main -->
+
+<!-- footer -->
+<footer>
+
+
+
+</footer>
+<!-- end of footer -->
+
+>>>>>>> 3feb4e95f233707c86ac251acb1bf9f0c46b4001
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
