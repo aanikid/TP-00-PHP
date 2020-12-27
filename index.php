@@ -47,6 +47,9 @@
 
 
     <!-- image header -->
+    <figure>
+      <img src="assets/img/newsup-banner.jpg" alt="image article sur le covid">
+    </figure>
     
     <!-- end image header -->
 
