@@ -25,7 +25,7 @@
   <!-- header -->
   <header>
     <!-- navbar -->
-    <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-light bg-light shadow">
+    <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-light bg-light shadow fixed-top">
       <a class="navbar-brand" href="#"> <img src="./assets/img/newsup-logo.png" alt="logo"></a>
       <!-- toggle button -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,8 +37,8 @@
         <div class="navbar-nav ml-auto ">
           <a class="nav-link" href="index.php">Accueil<span class="sr-only">(current)</span></a>
           <a class="nav-link " href="articles.php">Articles</a>
-          <a class="nav-link" href="register.php">Inscription</a>
-          <a class="nav-link" data-toggle="modal" data-target="#loginModal">Connexion</a>
+          <a class="nav-link" href="#register" data-toggle="collapse" data-target="#register">Inscription</a>
+          <a class="nav-link" href="#" data-toggle="modal" data-target="#loginModal">Connexion</a>
         </div>
       </div>
       <!-- end of navbar items -->

@@ -3,6 +3,13 @@ include_once "config/config.php";
 include_once "config/db_connect.php";
 
 include_once HEADER_PATH;
+
+$firstname = null;
+$lastname = null;
+$birth_day = 0;
+$birth_month = 0;
+$birth_year = 0;
+$email = null;
 ?>
 <!-- ======================================================================== -->
 
@@ -10,13 +17,13 @@ include_once HEADER_PATH;
 <div class="row">
     <div class="col-md-8 offset-md-2">
         <div class="row bg-dark justify-content-between rounded">
-        <h1 class="text-center text-white ml-3 my-auto">Inscritpion</h1>
-        <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+        <h1 class="text-center text-white ml-3 my-auto" >Inscritpion</h1>
+        <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#register" aria-expanded="false" aria-controls="collapseExample">
         <i class="fas fa-arrow-down"></i>
         </button>
         </div>
-        <div class="collapse" id="collapseExample">
-            <div class="card card-body">
+        <div class="collapse" id="register">
+            <div class="card card-body bg-light">
                 <!-- Formulaire -->
                 <form method="post" novalidate>
 
