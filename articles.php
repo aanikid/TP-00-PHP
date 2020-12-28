@@ -13,7 +13,7 @@
         <div class="row justify-content-center border border-info rounded mt-3 inline-block">
             <!-- photo de l'article -->
             <figure class="col-4 p-0 m-0">
-            <a href="#"><img src="assets/img/newsup-article1.png" alt="chien tenant un journal"></a>
+            <a href="#"><img class="w-100 h-100" src="assets/img/newsup-article1.png" alt="chien tenant un journal"></a>
             </figure>
             <!-- titre et résumé de l'article -->
             <div class="col-8 p-3">
@@ -36,7 +36,7 @@
         <div class="row justify-content-center border border-info rounded mt-3 inline-block">
             <!-- photo de l'article -->
             <figure class="col-4 p-0 m-0">
-            <a href="#"><img src="assets/img/newsup-article2.png" alt="hommes lisant le journal"></a>
+            <a href="#"><img class="w-100 h-100" src="assets/img/newsup-article2.png" alt="hommes lisant le journal"></a>
             </figure>
             <!-- titre et résumé de l'article -->
             <div class="col-8 p-3">
@@ -59,7 +59,7 @@
         <div class="row justify-content-center border border-info rounded mt-3 inline-block">
             <!-- photo de l'article -->
             <figure class="col-4 p-0 m-0">
-            <a href="#"><img src="assets/img/newsup-article3.png" alt="télévisions empilées"></a>
+            <a href="#"><img class="w-100 h-100" src="assets/img/newsup-article3.png" alt="télévisions empilées"></a>
             </figure>
             <!-- titre et résumé de l'article -->
             <div class="col-8 p-3">
@@ -82,7 +82,7 @@
         <div class="row justify-content-center border border-info rounded mt-3 inline-block">
             <!-- photo de l'article -->
             <figure class="col-4 p-0 m-0">
-            <a href="#"><img src="assets/img/newsup-article1.png" alt="chien tenant un journal"></a>
+            <a href="#"><img class="w-100 h-100" src="assets/img/newsup-article1.png" alt="chien tenant un journal"></a>
             </figure>
             <!-- titre et résumé de l'article -->
             <div class="col-8 p-3">
@@ -105,7 +105,7 @@
         <div class="row justify-content-center border border-info rounded mt-3 inline-block">
             <!-- photo de l'article -->
             <figure class="col-4 p-0 m-0">
-            <a href="#"><img src="assets/img/newsup-article2.png" alt="hommes lisant le journal"></a>
+            <a href="#"><img class="w-100 h-100" src="assets/img/newsup-article2.png" alt="hommes lisant le journal"></a>
             </figure>
             <!-- titre et résumé de l'article -->
             <div class="col-8 p-3">
@@ -128,7 +128,7 @@
         <div class="row justify-content-center border border-info rounded mt-3 inline-block">
             <!-- photo de l'article -->
             <figure class="col-4 p-0 m-0">
-            <a href="#"><img src="assets/img/newsup-article3.png" alt="télévisions empilées"></a>
+            <a href="#"><img class="w-100 h-100" src="assets/img/newsup-article3.png" alt="télévisions empilées"></a>
             </figure>
             <!-- titre et résumé de l'article -->
             <div class="col-8 p-3">
@@ -151,7 +151,7 @@
         <div class="row justify-content-center border border-info rounded mt-3 inline-block">
             <!-- photo de l'article -->
             <figure class="col-4 p-0 m-0">
-            <a href="#"><img src="assets/img/newsup-article1.png" alt="chien tenant un journal"></a>
+            <a href="#"><img class="w-100 h-100" src="assets/img/newsup-article1.png" alt="chien tenant un journal"></a>
             </figure>
             <!-- titre et résumé de l'article -->
             <div class="col-8 p-3">
@@ -174,7 +174,7 @@
         <div class="row justify-content-center border border-info rounded mt-3 inline-block">
             <!-- photo de l'article -->
             <figure class="col-4 p-0 m-0">
-            <a href="#"><img src="assets/img/newsup-article2.png" alt="hommes lisant le journal"></a>
+            <a href="#"><img class="w-100 h-100" src="assets/img/newsup-article2.png" alt="hommes lisant le journal"></a>
             </figure>
             <!-- titre et résumé de l'article -->
             <div class="col-8 p-3">
@@ -197,7 +197,7 @@
         <div class="row justify-content-center border border-info rounded mt-3 inline-block">
             <!-- photo de l'article -->
             <figure class="col-4 p-0 m-0">
-            <a href="#"><img src="assets/img/newsup-article3.png" alt="télévisions empilées"></a>
+            <a href="#"><img class="w-100 h-100" src="assets/img/newsup-article3.png" alt="télévisions empilées"></a>
             </figure>
             <!-- titre et résumé de l'article -->
             <div class="col-8 p-3">
@@ -221,7 +221,7 @@
         <div class="row justify-content-center border border-info rounded mt-3 inline-block">
             <!-- photo de l'article -->
             <figure class="col-4 p-0 m-0">
-            <a href="#"><img src="assets/img/newsup-article1.png" alt="chien tenant un journal"></a>
+            <a href="#"><img class="w-100 h-100" src="assets/img/newsup-article1.png" alt="chien tenant un journal"></a>
             </figure>
             <!-- titre et résumé de l'article -->
             <div class="col-8 p-3   ">
