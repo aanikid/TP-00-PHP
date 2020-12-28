@@ -37,7 +37,7 @@
         <div class="navbar-nav ml-auto ">
           <a class="nav-link" href="index.php">Accueil<span class="sr-only">(current)</span></a>
           <a class="nav-link " href="articles.php">Articles</a>
-          <a class="nav-link" href="#">Inscription</a>
+          <a class="nav-link" href="register.php">Inscription</a>
           <a class="nav-link" data-toggle="modal" data-target="#loginModal">Connexion</a>
         </div>
       </div>

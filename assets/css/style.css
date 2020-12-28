@@ -14,15 +14,3 @@ h4 {
 body {
     font-family: 'Roboto', sans-serif;
 }
-
-
-/*
- * 01-Header 
- */
-
-.header-img {
-    width: 100%;
-    height: 500px;
-    background-image: url("../img/newsup-banner.jpg");
-    background-repeat: no-repeat;
-}
