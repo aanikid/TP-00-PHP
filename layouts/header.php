@@ -63,17 +63,34 @@
 
     <div class="card-carousel">
       <div class="my-card">
+      <figure>
+      <img src="../assets/img/newsup-article1.png" alt="">
+      </figure>
+        
       </div>
       
       <div class="my-card">
+        <figure>
+          <img src="../assets/img/newsup-article3.png" alt="">
+        </figure>
       </div>
       
       <div class="my-card">
+        <figure>
+          <img src="../assets/img/newsup-article1.png" alt="">
+        </figure>
       </div>
 
       <div class="my-card">
+        <figure>
+          <img src="../assets/img/newsup-article2.png" alt="">
+        </figure>
       </div>
+      
       <div class="my-card">
+        <figure>
+          <img src="../assets/img/newsup-article3.png" alt="">
+        </figure>
       </div>
     </div>
     <!-- end carousel -->
