@@ -35,7 +35,7 @@
       <!-- navbar items -->
       <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
         <div class="navbar-nav ml-auto ">
-          <a class="nav-link active " href="#">Acceuil<span class="sr-only">(current)</span></a>
+          <a class="nav-link active " href="#">Accueil<span class="sr-only">(current)</span></a>
           <a class="nav-link " href="#">Articles</a>
           <a class="nav-link" href="#">Inscription</a>
           <a class="nav-link" data-toggle="modal" data-target="#loginModal">Connexion</a>
@@ -47,6 +47,10 @@
 
 
     <!-- image header -->
+    <figure>
+      <img src="assets/img/newsup-banner.jpg" alt="image article sur le covid">
+    </figure>
+    
     <!-- end image header -->
 
   </header>
@@ -56,6 +60,22 @@
   <main>
 
     <!-- carousel -->
+
+    <div class="card-carousel">
+      <div class="my-card">
+      </div>
+      
+      <div class="my-card">
+      </div>
+      
+      <div class="my-card">
+      </div>
+
+      <div class="my-card">
+      </div>
+      <div class="my-card">
+      </div>
+    </div>
     <!-- end carousel -->
 
     <!-- exemple article -->
