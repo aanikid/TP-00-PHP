@@ -8,5 +8,6 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 //chemin des fichier LAYOUTS
-const HEADER_PATH = ".././layouts/header.php";
-const FOOTER_PATH = ".././layouts/footer.php";
+const HEADER_PATH = "layouts/header.php";
+const FOOTER_PATH = "layouts/footer.php";
+const LOGIN_MODAL_PATH = "layouts/modal.php";
