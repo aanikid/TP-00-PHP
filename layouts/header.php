@@ -106,6 +106,11 @@
     <!-- end carousel -->
 
     <!-- exemple article -->
+    <figure>
+      <img src="../assets/img/thumbnail.jpg" alt="">
+    </figure>
+    <h2>fidèle à l'info plus que jamais</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quam repellat iure, porro perferendis assumenda incidunt unde eligendi voluptatum magni eos reiciendis error esse, iste reprehenderit quod odit asperiores saepe.Laboriosam laudantium minima voluptate officia rem facere assumenda at, cupiditate fugit dolorem omnis, optio iusto! Deleniti nobis itaque dignissimos? Optio eaque facilis distinctio praesentium et quisquam culpa id deleniti sed?</p>
     <!-- end exemple article -->
 
     <!-- formulaire register -->
