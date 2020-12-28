@@ -26,7 +26,7 @@
   <header>
     <!-- navbar -->
     <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-light bg-light shadow">
-    <a class="navbar-brand" href="#"> <img src="../assets/img/newsup-logo.png" alt="logo"></a>
+    <a class="navbar-brand" href="#"> <img src="./assets/img/newsup-logo.png" alt="logo"></a>
       <!-- toggle button -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -36,7 +36,7 @@
       <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
         <div class="navbar-nav ml-auto ">
           <a class="nav-link active " href="#">Accueil<span class="sr-only">(current)</span></a>
-          <a class="nav-link " href="#">Articles</a>
+          <a class="nav-link " href="articles.php">Articles</a>
           <a class="nav-link" href="#">Inscription</a>
           <a class="nav-link" data-toggle="modal" data-target="#loginModal">Connexion</a>
         </div>
@@ -48,7 +48,7 @@
 
     <!-- image header -->
     <figure>
-      <img src="../assets/img/newsup-banner.jpg" alt="image article sur le covid">
+      <img src="./assets/img/newsup-banner.jpg" alt="image article sur le covid">
     </figure>
     
     <!-- end image header -->
