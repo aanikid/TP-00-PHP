@@ -13,11 +13,11 @@ $email = null;
 ?>
 <!-- ======================================================================== -->
 
-
+<hr>
 <div class="row">
     <div class="col-md-8 offset-md-2">
         <div class="row bg-dark justify-content-between rounded">
-        <h1 class="text-center text-white ml-3 my-auto" >Inscritpion</h1>
+        <h1 class="text-center text-white ml-3 my-auto" id="inscription" >Inscritpion</h1>
         <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#register" aria-expanded="false" aria-controls="collapseExample">
         <i class="fas fa-arrow-down"></i>
         </button>
