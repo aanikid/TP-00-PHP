@@ -7,7 +7,7 @@
                 <div class="card-body">
                     <h5 class="card-subtitle mb-2 text-muted">fidéle à l'info plus que jamais</h5>
                     <hr>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.<a href="#"> Lire la suite ...</a></p>
                 </div>
                 <div class="card-footer">
                     <div class="row justify-content-between">
@@ -22,7 +22,7 @@
                 <div class="card-body">
                     <h5 class="card-subtitle mb-2 text-muted">fidéle à l'info plus que jamais</h5>
                     <hr>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.<a href="#"> Lire la suite ...</a></p>
                 </div>
                 <div class="card-footer">
                     <div class="row justify-content-between">
@@ -37,7 +37,7 @@
                 <div class="card-body">
                     <h5 class="card-subtitle mb-2 text-muted">fidéle à l'info plus que jamais</h5>
                     <hr>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.<a href="#"> Lire la suite ...</a></p>
                 </div>
                 <div class="card-footer">
                     <div class="row justify-content-between">
@@ -52,7 +52,7 @@
                 <div class="card-body">
                     <h5 class="card-subtitle mb-2 text-muted">fidéle à l'info plus que jamais</h5>
                     <hr>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.<a href="#"> Lire la suite ...</a></p>
                 </div>
                 <div class="card-footer">
                     <div class="row justify-content-between">
@@ -66,7 +66,7 @@
                 <div class="card-body">
                     <h5 class="card-subtitle mb-2 text-muted">fidéle à l'info plus que jamais</h5>
                     <hr>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.<a href="#"> Lire la suite ...</a></p>
                 </div>
                 <div class="card-footer">
                     <div class="row justify-content-between">
