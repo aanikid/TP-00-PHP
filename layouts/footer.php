@@ -16,13 +16,17 @@
 <!-- Fin Modals du site -->
 
 <!-- JavaScript Bundle with Popper -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <!-- font awesome -->
 <script src="https://kit.fontawesome.com/be57881c61.js" crossorigin="anonymous"></script>
 <!-- perso Script app.js -->
 <script src="assets/javascript/app.js"></script>
+<script src="assets/javascript/carousel.js"></script>
+
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+				
 </body>
 
 </html>
