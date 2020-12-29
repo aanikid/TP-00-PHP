@@ -64,16 +64,16 @@
 .slick-prev:before,
 .slick-next:before {
     font-family: 'slick';
-    font-size: 20px;
+    font-size: 40px;
     line-height: 1;
     opacity: .75;
-    color: white;
+    color: #007bff;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
 .slick-prev {
-    left: -25px;
+    left: -45px;
 }
 
 [dir='rtl'] .slick-prev {
@@ -90,7 +90,7 @@
 }
 
 .slick-next {
-    right: -25px;
+    right: -30px;
 }
 
 [dir='rtl'] .slick-next {

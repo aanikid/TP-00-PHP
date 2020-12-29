@@ -1,5 +1,5 @@
 <!-- carousel -->
-<div class="container-fluid bg-dark text-secondary">
+<div class="container-fluid">
 <div class="container bg-light">
 <div class="card-deck">
     <div class="card">

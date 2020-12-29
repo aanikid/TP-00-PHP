@@ -14,8 +14,3 @@ h4 {
 body {
     font-family: 'Roboto', sans-serif;
 }
-
-.slick-prev:before,
-.slick-next:before {
-    color: yellow;
-}
