@@ -23,7 +23,7 @@
                 
                 <div class="form-group">
                     <label for="password" class="sr-only">Password</label>
-                    <input class="form-control" type="password" name="password" id="password" placeholder="Password">
+                    <input class="form-control" type="password" name="password" id="login_password" placeholder="Password">
                 </div>
 
             </div>

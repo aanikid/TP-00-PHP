@@ -1,7 +1,7 @@
 <!-- carousel -->
-<div class="container-fluid">
+<div class="container-fluid bg-dark text-secondary">
 <div class="container bg-light">
-<div class="card-deck" >
+<div class="card-deck">
     <div class="card">
         <img src="assets/img/newsup-article1.png" class="card-img-top" alt="...">
         <div class="card-body">

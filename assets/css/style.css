@@ -15,10 +15,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.slick-prev:before {
-    color: blueviolet;
-}
-
+.slick-prev:before,
 .slick-next:before {
-    color: blue;
+    color: yellow;
 }
