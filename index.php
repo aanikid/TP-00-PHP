@@ -5,7 +5,7 @@ include_once('./config/config.php');
 include_once HEADER_PATH
 ?>
 <!--===============================================================================================================================-->
-<?php include_once "register.php"; ?>
+<?php include_once INDEX_COMPONENT_REGISTER ?>
 
 
 
