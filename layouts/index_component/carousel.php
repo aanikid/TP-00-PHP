@@ -3,7 +3,7 @@
 <div class="card-carousel">
     <div class="my-card">
         <figure>
-            <img src="../assets/img/newsup-article1.png" alt="chien avec un journal dans la bouche">
+            <img src="assets/img/newsup-article1.png" alt="chien avec un journal dans la bouche">
         </figure>
         <h2>fidèle à l'info plus que jamais</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel amet fuga aliquid id laborum cupiditate itaque vero rerum. In consequuntur officia, reprehenderit ad perferendis delectus? Nostrum ut dignissimos voluptatem magnam.</p>
@@ -12,7 +12,7 @@
 
     <div class="my-card">
         <figure>
-            <img src="../assets/img/newsup-article2.png" alt="deux hommes qui tiennent un journal">
+            <img src="assets/img/newsup-article1.png" alt="deux hommes qui tiennent un journal">
         </figure>
         <h2>fidèle à l'info plus que jamais</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur ex accusamus delectus aut corrupti doloribus ratione, esse laudantium quo facere non aperiam odio in deserunt cumque recusandae vitae temporibus asperiores!</p>

@@ -17,7 +17,7 @@ $email = null;
 <div class="row">
     <div class="col-md-8 offset-md-2">
         <div class="row bg-dark justify-content-between rounded">
-        <h1 class="text-center text-white ml-3 my-auto" id="inscription" >Inscritpion</h1>
+        <h3 class="text-center text-white ml-3 my-auto text-uppercase" id="inscription" >devenez menbres </h3>
         <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#register" aria-expanded="false" aria-controls="collapseExample">
         <i class="fas fa-arrow-down"></i>
         </button>
