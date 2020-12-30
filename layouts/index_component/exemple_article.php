@@ -3,7 +3,7 @@
 
 <!-- article -->
 <div class="container bg-light">
- <div class="row justify-content-center border border-info rounded mt-3 inline-block">
+ <div class="row justify-content-center border border-info rounded mt-3 inline-block Larger shadow">
             <!-- photo de l'article -->
             <figure class="col-4 p-0 m-0">
             <a href="#"><img class="w-100 h-100" src="assets/img/newsup-article1.png" alt="chien tenant un journal"></a>

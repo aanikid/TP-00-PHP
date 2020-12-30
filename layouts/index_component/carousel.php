@@ -2,8 +2,8 @@
 <div class="container-fluid">
     <div class="container bg-light">
         <div class="card-deck">
-            <div class="card">
-                <img src="assets/img/newsup-article1.png" class="card-img-top" alt="...">
+            <div class="card large shadow">
+                <img src="assets/img/newsup-article1.png" class="card-img-top " alt="...">
                 <div class="card-body">
                     <h5 class="card-subtitle mb-2 text-muted">fidéle à l'info plus que jamais</h5>
                     <hr>
@@ -17,7 +17,7 @@
                 </div>
             </div>
 
-            <div class="card">
+            <div class="card large shadow">
                 <img src="assets/img/newsup-article2.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-subtitle mb-2 text-muted">fidéle à l'info plus que jamais</h5>
@@ -32,7 +32,7 @@
                 </div>
             </div>
 
-            <div class="card">
+            <div class="card large shadow">
                 <img src="assets/img/newsup-article3.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-subtitle mb-2 text-muted">fidéle à l'info plus que jamais</h5>
@@ -47,7 +47,7 @@
                 </div>
             </div>
 
-            <div class="card">
+            <div class="card large shadow">
                 <img src="assets/img/newsup-article1.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-subtitle mb-2 text-muted">fidéle à l'info plus que jamais</h5>
@@ -61,7 +61,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card">
+            <div class="card large shadow">
                 <img src="assets/img/newsup-article2.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-subtitle mb-2 text-muted">fidéle à l'info plus que jamais</h5>
