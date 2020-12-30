@@ -18,11 +18,11 @@ $email = null;
     <div class="col-md-8 offset-md-2">
         <div class="row bg-dark justify-content-between rounded">
         <h3 class="text-center text-white ml-3 my-auto text-uppercase" id="inscription" >devenez menbres </h3>
-        <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#register" aria-expanded="false" aria-controls="collapseExample">
+        <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#register" aria-expanded="false" aria-controls="register">
         <i class="fas fa-arrow-down"></i>
         </button>
         </div>
-        <div class="collapse" id="register">
+        <div class="collapse show" id="register">
             <div class="card card-body bg-light">
                 <!-- Formulaire -->
                 <form method="post" novalidate>
