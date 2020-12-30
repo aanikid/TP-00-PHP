@@ -15,7 +15,7 @@ const LOGIN_MODAL_PATH = "layouts/modal.php";
 //chemin des index component
 const INDEX_COMPONENT_BANNER = "layouts/index_component/banner.php";
 const INDEX_COMPONENT_CAROUSEL = "layouts/index_component/carousel.php";
-const INDEX_COMPONENT_exemple_article = "layouts/index_component/exemple_article.php";
+const INDEX_COMPONENT_ABOUTUS = "layouts/index_component/about-us.php";
 const INDEX_COMPONENT_REGISTER = "layouts/index_component/register.php";
 
 

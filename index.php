@@ -14,7 +14,7 @@ include_once HEADER_PATH
 <?php include_once INDEX_COMPONENT_CAROUSEL ?>
 
 <!-- on inclue le fichier exemple-article.php contenant l'exemple d'article dans la page d'accueil -->
-<?php include_once INDEX_COMPONENT_exemple_article ?>
+<?php include_once INDEX_COMPONENT_ABOUTUS ?>
 
 <!-- on inclue le fichier register.php contenant le form register de la page d'accueil  -->
 <?php include_once INDEX_COMPONENT_REGISTER ?>
