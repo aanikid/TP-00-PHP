@@ -5,8 +5,8 @@ $('.card-deck').slick({
     responsive: [{
             breakpoint: 768,
             settings: {
-                arrows: false,
-                centerMode: true,
+                arrows: true,
+                centerMode: false,
                 centerPadding: '40px',
                 slidesToShow: 1
             }
@@ -14,8 +14,8 @@ $('.card-deck').slick({
         {
             breakpoint: 480,
             settings: {
-                arrows: false,
-                centerMode: true,
+                arrows: true,
+                centerMode: false,
                 centerPadding: '40px',
                 slidesToShow: 1
             }
