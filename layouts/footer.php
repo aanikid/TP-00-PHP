@@ -1,8 +1,21 @@
 </main>
 <!-- end of main -->
-<!-- footer component -->
+
 <!-- footer -->
-<footer>
+<footer class="mt-4 text-white">
+    <div class="container-fluid bg-dark" style="height: 50px;">
+        <div class="container">
+            <p class="float-right">
+                <a href="#">Haut de page</a>
+            </p>
+            <p>
+                © 2017-2018 Company, Inc. ·
+                <a href="#">Privacy</a>
+                .
+                <a href="#">Terms</a>
+            </p>
+        </div>
+    </div>
 
 
 
@@ -27,7 +40,7 @@
 <script src="assets/javascript/app.js"></script>
 <script src="assets/javascript/carousel.js"></script>
 
-				
+
 </body>
 
 </html>
