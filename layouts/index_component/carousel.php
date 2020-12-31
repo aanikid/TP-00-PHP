@@ -1,8 +1,8 @@
 <!-- carousel -->
-<div class="container-fluid">
+<div class="container-fluid mt-lg-5">
     <h2 class="text-center text-primary">Les derniers articles ajoutées</h2>
     <hr style="width: 400px;">
-    <div class="container bg-light">
+    <div class="container bg-light mt-lg-5 mb-lg-5">
         <div class="card-deck">
             <div class="card large shadow">
                 <img src="assets/img/newsup-article1.png" class="card-img-top " alt="...">
