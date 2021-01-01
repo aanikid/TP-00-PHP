@@ -40,7 +40,7 @@ $db_user = "root";
 $db_pass = "";
 
 // Definie le nom de la base de données (dbschema, dbname)
-$db_schema = "cours_discotheque";
+$db_schema = "blog";
 
 //Infos facultatives
 
