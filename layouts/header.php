@@ -54,7 +54,7 @@
               <a class="nav-link" href="security/logout.php">Log out</a>
             </li>
           <?php else : ?>
-            <a class="nav-link" href="index.php#register">Inscription</a>
+            <a class="nav-link" href="register.php">Inscription</a>
             <a class="nav-link" href="#" data-toggle="modal" data-target="#loginModal">Connexion</a>
           <?php endif ?>
         </div>
@@ -67,6 +67,3 @@
   <!-- main -->
 
   <div class="main-containt">
-    
-     
-    

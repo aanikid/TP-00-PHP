@@ -130,7 +130,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 'type' => "success",
                 'message' => "Félicitation $firstname, votre compte à été créé !"
             ];
-            header('location: ../profil.php');
+            header('location: index.php');
                 exit;
         }
     }
