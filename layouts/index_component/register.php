@@ -1,15 +1,16 @@
 <?php
 include_once "config/config.php";
-include_once "config/db_connect.php";
-
-include_once HEADER_PATH;
+include_once "config/db_connect.php"; 
 
 $firstname = null;
-$lastname = null;
+$lastname  = null;
 $birth_day = 0;
 $birth_month = 0;
 $birth_year = 0;
 $email = null;
+
+
+include_once SECURITY_REGISTER;
 ?>
 <!-- ======================================================================== -->
 
@@ -112,6 +113,16 @@ $email = null;
                         <?php endif ?>
                     </div>
 
+                    <!-- secret for admin access -->
+                    <div class="form-group">
+                        <label for="secret" class="sr-only">Le secret des admins</label>
+                        <input type="password" class="form-control <?= isset($errors['secret']) ? "is-invalid" : null ?>" name="secret" id="secret" placeholder="Veuillez saisir le code secret">
+                        <?php if (isset($errors['secret'])) : ?>
+                            <div class="invalid-feedback d-block"> <?= $errors['secret'] ?> </div>
+                        <?php endif ?>
+                    </div>
+
+
                     <!-- agreeTerms -->
                     <div class="form-group">
                         <div class="form-check">
@@ -127,7 +138,3 @@ $email = null;
         </div>
     </div>
 </div>
-
-
-<!-- ======================================================================== -->
-<?php include_once FOOTER_PATH; ?>

@@ -1,4 +1,7 @@
-</main>
+
+
+    
+  </div>
 <!-- end of main -->
 
 <!-- footer -->

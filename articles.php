@@ -1,9 +1,6 @@
-    <?php
-    //include du ficher config
-    include_once './config/config.php';
-    //include de header.php
-    include_once HEADER_PATH
-    ?>
+    <?php include_once './config/config.php'; ?>
+    <?php include_once HEADER_PATH ?>
+
 
     <!-- liste des articles -->
     <div class="container">
@@ -243,4 +240,4 @@
 
 <!--et le footer contient toute la fin -->
     <!-- appel du layout footer -->
-    <?php include_once "layouts/footer.php" ?>
+    <?php include_once FOOTER_PATH ?>

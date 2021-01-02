@@ -1,4 +1,3 @@
-<!-- carousel -->
 <div class="container-fluid mt-lg-5">
     <h2 class="text-center text-primary">Les derniers articles ajoutées</h2>
     <hr style="width: 400px;">
@@ -18,7 +17,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="card large shadow">
                 <img src="assets/img/newsup-article2.png" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -33,7 +31,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="card large shadow">
                 <img src="assets/img/newsup-article3.png" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -48,7 +45,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="card large shadow">
                 <img src="assets/img/newsup-article1.png" class="card-img-top" alt="...">
                 <div class="card-body">

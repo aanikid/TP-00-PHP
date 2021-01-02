@@ -1,6 +1,5 @@
 <!-- connection a la base de donnés -->
 <?php
-
 //Definition de la DSN
 $db_dsn = $db_type . ":";
 $db_dsn.= "host=". $db_host .";";

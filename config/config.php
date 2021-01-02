@@ -1,6 +1,6 @@
 <!-- ici la config de notre site -->
-<?php 
-
+<?php
+session_start();
 
 // On force l'affichage des messages d'erreurs
 ini_set('display_errors', 1);
@@ -11,6 +11,7 @@ error_reporting(E_ALL);
 const HEADER_PATH = "layouts/header.php";
 const FOOTER_PATH = "layouts/footer.php";
 const LOGIN_MODAL_PATH = "layouts/modal.php";
+const SECURITY_REGISTER = "security/register.php";
 
 //chemin des index component
 const INDEX_COMPONENT_BANNER = "layouts/index_component/banner.php";
@@ -49,3 +50,5 @@ $db_port= "3306";
 
 // Definie le jeu de caractères utilisé pour les requêtes
 $db_charset = "utf8";
+
+$displayElement = false;
