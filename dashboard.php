@@ -1,0 +1,1 @@
+<!-- page de l'admin article -->
