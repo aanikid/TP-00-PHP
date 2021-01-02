@@ -11,6 +11,7 @@
   <!-- Bootstrap style -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
   <!-- Perso Style -->
+  <link rel="stylesheet" href="assets/css/side-bar.css">
 
   <link rel="stylesheet" href="assets/css/style.css">
 
