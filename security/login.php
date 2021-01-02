@@ -22,12 +22,10 @@ if($_SERVER['REQUEST_METHOD'] === "POST")
     //--
 
     //Aucun controlle à affectuer
-    //- Login = une chaîne ou NULL
-    //- Password = une chaîne ou NULL
 
     //3. Recupe de l'utilisateur dans la BDD
     //--
-    $sql = "SELECT id, firstname, email, password FROM users WHERE email=:email";
+    $sql = "SELECT id, firstname, lastname, email, isAdmin, password FROM users WHERE email=:email";
     $query = $pdo->prepare($sql);
 
     $query->bindParam(":email", $login, PDO::PARAM_STR);
@@ -38,6 +36,16 @@ if($_SERVER['REQUEST_METHOD'] === "POST")
     if($user){
         //4. Verification DU MDP
         //--
+        //recuperation de la valeur de isAdmin dans l'objet $user
+        $admin = $user->isAdmin;
+        //recuperation du firstname dans l'objet $user
+        $firstname = $user->firstname;
+        //recuperation du lastname dans l'objet $user
+        $lastname = $user->lastname;
+        //Generate screenname ex: (John D.)
+        $screename = $firstname . " " . strtoupper($lastname[0]) . ".";
+        //session admin, afin d'afficher les elements adéquats
+        $_SESSION['admin'] = $admin;
         if(password_verify($plain_password, $user->password))
         {
             //5. Procédure d'identification
@@ -47,12 +55,12 @@ if($_SERVER['REQUEST_METHOD'] === "POST")
 
             //identification de l'utilisateur
             $_SESSION['user'] = $user;
-            
             //message flash success a la redirection
             $_SESSION['flash'] = [
                 'type' => "success",
-                'message' => "Bonjour $user->firstname"
+                'message' => "Bonjour $screename"
             ];
+            
         }
         // Le mot de passe ne correspond pas
         else

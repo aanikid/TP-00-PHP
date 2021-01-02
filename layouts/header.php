@@ -43,8 +43,14 @@
       <!-- navbar items -->
       <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
         <div class="navbar-nav ml-auto ">
-          <a class="nav-link" href="index.php">Accueil<span class="sr-only">(current)</span></a>
-          <a class="nav-link " href="articles.php">Articles</a>
+        <?php if (isset($_SESSION['admin']) AND $_SESSION['admin'] == true ) : ?>
+          <li class="nav-item">
+            <a class="nav-link" href="dashboard.php">Dashbord</a>
+          </li>
+          <?php else : ?>
+            <a class="nav-link" href="index.php">Accueil<span class="sr-only">(current)</span></a>
+            <a class="nav-link " href="articles.php">Articles</a>
+        <?php endif ?>
           <?php if (isset($_SESSION['user'])) : ?>
             <!-- Menu user si l'utilisateur identifié -->
             <li class="nav-item">
@@ -54,6 +60,7 @@
               <a class="nav-link" href="security/logout.php">Log out</a>
             </li>
           <?php else : ?>
+            
             <a class="nav-link" href="register.php">Inscription</a>
             <a class="nav-link" href="#" data-toggle="modal" data-target="#loginModal">Connexion</a>
           <?php endif ?>

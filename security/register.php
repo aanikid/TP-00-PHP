@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $confirm_password = $_POST['password_confirm'] ?? null;
     $agreeTerms = isset($_POST['agreeTerms']) ? true : false;
     //secret des admins
-    $isAdmin = 0;
+    $isAdmin = null;
     $secret = ($_POST['secret']) ?? null;
 
     //calcule de l'age de l'ux
@@ -25,8 +25,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $diff = $d2->diff($d1);
     $age = $diff->y;
 
-    //Generate screenname ex: (John D.)
-    $screename = $firstname . " " . strtoupper($lastname[0]) . ".";
 
     //Generate the Birthday string
     $birthday = $birth_year . "-";
@@ -86,10 +84,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         // $isValid = false;
         $errors['agreeTerms'] = "Vous devez accepter les CGU";
     }
-    if ($secret != 'groupe1wf3') {
-        $isAdmin = 0;
-    } else {
-        $isAdmin = 1;
+    if ($secret === 'groupe1wf3') {
+        $isAdmin = true;
     }
     //Test l'existence de l'ux en BDD via l'email
     $sql = "SELECT id FROM users WHERE email=:email";
