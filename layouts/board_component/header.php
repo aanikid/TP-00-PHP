@@ -43,5 +43,3 @@ include_once HEADER_PATH;
         <a class="btn btn-primary" data-toggle="collapse" href="#sidebar-wrapper" role="button" aria-expanded="false" aria-controls="sidebar-wrapper">Lien</a>
         <div class="col-md-11 offset-md-1">
 
-        
-
