@@ -13,6 +13,7 @@ include_once HEADER_PATH;
             <div class="sidebar-heading text-center bg-dark">
                 <h2 class="text-primary my-auto">Dashbord</h2>
             </div>
+            
             <!-- photo de profil -->
             <div class="profil-img mx-auto my-2" style="height: 150px; width:70%;">
                 <img src="assets/img/profil.jpg" alt="photo-de-profil" class="img-fluid rounded-circle ml-2 border border-primary" style="height: 150px;">
@@ -39,3 +40,6 @@ include_once HEADER_PATH;
         <!-- /#sidebar-wrapper -->
         <!-- //ici rendre dynamique les page -->
         <div class="container-fluid mt-4">
+        <button class="btn btn-primary" id="menu-toggle">Toggle Menu</button>
+        
+

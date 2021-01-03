@@ -40,8 +40,9 @@
 <!-- font awesome -->
 <script src="https://kit.fontawesome.com/be57881c61.js" crossorigin="anonymous"></script>
 <!-- perso Script app.js -->
-<script src="assets/javascript/app.js"></script>
+
 <script src="assets/javascript/carousel.js"></script>
+<script src="assets/javascript/app.js"></script>
 
 
 </body>
