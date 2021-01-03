@@ -49,7 +49,7 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
     }
     if($size>$maxSize)
     {
-        $errors = 'Le fichier est trop gros...';
+        $errors = 'Le fichier est trop volumineux...';
     }
         //On formate le nom du fichier ici...
         $illustration = strtr($illustration, 
@@ -113,7 +113,8 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
 
 
 
-// include_once DASHBOARD_HEADER; ?>
+ ?>
+ <?php include_once DASHBOARD_HEADER;?>
 <!--===============================================================================================================================-->
 
 <!-- form de creation d'article -->
