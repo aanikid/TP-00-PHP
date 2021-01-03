@@ -96,6 +96,7 @@ include_once DASHBOARD_HEADER; ?>
         <h2 class="text-primary text-center mb-lg-5">Création d'un article</h2>
         </div>
         <form action="" method="post">
+            <!-- manque l'ajout de linput pour recuperer la photo et puis tes bon adrien -->
             <div class="row">
                 <div class="col-md-6">
                     <div class="form-groupe">
