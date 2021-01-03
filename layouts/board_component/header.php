@@ -9,7 +9,7 @@ include_once HEADER_PATH;
 <div class="row mt-lg-5">
     <div class="d-flex mt-lg-3" id="wrapper">
         <!-- Sidebar -->
-        <div class="bg-light border-right" id="sidebar-wrapper">
+        <div class="bg-light border-right collapse show" id="sidebar-wrapper">
             <div class="sidebar-heading text-center bg-dark">
                 <h2 class="text-primary my-auto">Dashbord</h2>
             </div>
@@ -40,6 +40,8 @@ include_once HEADER_PATH;
         <!-- /#sidebar-wrapper -->
         <!-- //ici rendre dynamique les page -->
         <div class="container-fluid mt-4">
-        <button class="btn btn-primary" id="menu-toggle">Toggle Menu</button>
+        <a class="btn btn-primary" data-toggle="collapse" href="#sidebar-wrapper" role="button" aria-expanded="false" aria-controls="sidebar-wrapper">Lien</a>
+        <div class="col-md-11 offset-md-1">
+
         
 
