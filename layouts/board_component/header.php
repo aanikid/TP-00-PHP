@@ -14,8 +14,8 @@ include_once HEADER_PATH;
                 <h2 class="text-primary my-auto">Dashbord</h2>
             </div>
             <!-- photo de profil -->
-            <div class="profil-img border rounded-circle mx-auto my-2" style="height: 150px; width:70%;">
-
+            <div class="profil-img mx-auto my-2" style="height: 150px; width:70%;">
+                <img src="assets/img/profil.jpg" alt="photo-de-profil" class="img-fluid rounded-circle ml-2 border border-primary" style="height: 150px;">
             </div>
             <!-- nom et prenom de la personne --> 
             <div class="row justify-content-center align-items-center">
