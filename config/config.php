@@ -13,11 +13,16 @@ const FOOTER_PATH = "layouts/footer.php";
 const LOGIN_MODAL_PATH = "layouts/modal.php";
 const SECURITY_REGISTER = "security/register.php";
 
+
 //chemin des index component
 const INDEX_COMPONENT_BANNER = "layouts/index_component/banner.php";
 const INDEX_COMPONENT_CAROUSEL = "layouts/index_component/carousel.php";
 const INDEX_COMPONENT_ABOUTUS = "layouts/index_component/about-us.php";
 
+
+//chemin des dashboard component
+const DASHBOARD_HEADER = "layouts/board_component/header.php";
+const DASHBOARD_FOOTER = "layouts/board_component/footer.php";
 
 // Month definition
 $month_text =["Janvier", "Fevrier", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"];
