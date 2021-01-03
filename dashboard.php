@@ -39,8 +39,8 @@ include_once HEADER_PATH;
         <!-- /#sidebar-wrapper -->
         <!-- //ici rendre dynamique les page -->
         <div class="container-fluid mt-4">
-            <h2>testssqkjqkjklqj</h2>
-            
+            <h2>ICI LE MAIN DE LA PAGE DASHBOARD</h2>
+
         </div>
     </div>
 </div>
