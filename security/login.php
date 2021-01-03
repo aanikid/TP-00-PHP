@@ -38,21 +38,21 @@ if($_SERVER['REQUEST_METHOD'] === "POST")
         //--
         //recuperation de la valeur de isAdmin dans l'objet $user
         $admin = $user->isAdmin;
+        //session admin, afin d'afficher les elements adéquats
+        $_SESSION['admin'] = $admin;
         //recuperation du firstname dans l'objet $user
         $firstname = $user->firstname;
         //recuperation du lastname dans l'objet $user
         $lastname = $user->lastname;
         //Generate screenname ex: (John D.)
         $screename = $firstname . " " . strtoupper($lastname[0]) . ".";
-        //session admin, afin d'afficher les elements adéquats
-        $_SESSION['admin'] = $admin;
         if(password_verify($plain_password, $user->password))
         {
             //5. Procédure d'identification
             //--
 
             unset($user->password);
-
+            
             //identification de l'utilisateur
             $_SESSION['user'] = $user;
             //message flash success a la redirection

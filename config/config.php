@@ -17,7 +17,6 @@ const SECURITY_REGISTER = "security/register.php";
 const INDEX_COMPONENT_BANNER = "layouts/index_component/banner.php";
 const INDEX_COMPONENT_CAROUSEL = "layouts/index_component/carousel.php";
 const INDEX_COMPONENT_ABOUTUS = "layouts/index_component/about-us.php";
-const INDEX_COMPONENT_REGISTER = "layouts/index_component/register.php";
 
 
 // Month definition
