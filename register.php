@@ -27,7 +27,11 @@ include_once INDEX_COMPONENT_BANNER;
 <div class="row mt-lg-5">
     <div class="col-md-8 offset-md-2">
         <div class="row bg-dark justify-content-between rounded">
-        <h3 class="text-center text-white ml-3 my-auto text-uppercase" id="inscription" > devenez menbres </h3>
+            <div class="row my-auto">
+                <h3 class="text-center text-white ml-5 mt-2 mb-0  text-uppercase " id="inscription" > devenez menbres </h3>
+                <img src="assets/img/newsup-logo-blanc.png" class="ml-2"alt="img-logo">
+            </div>
+        
         <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#register" aria-expanded="false" aria-controls="register">
         <i class="fas fa-arrow-down"></i>
         </button>

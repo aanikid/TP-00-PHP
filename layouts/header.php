@@ -62,7 +62,7 @@
             </li>
           <?php else : ?>
             
-            <a class="nav-link" href="register.php">Inscription</a>
+            <a class="nav-link" href="register.php#register">Inscription</a>
             <a class="nav-link" href="#" data-toggle="modal" data-target="#loginModal">Connexion</a>
           <?php endif ?>
         </div>
