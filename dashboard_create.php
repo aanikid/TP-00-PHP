@@ -113,7 +113,7 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
 
 
 
-// include_once DASHBOARD_HEADER; ?>
+include_once DASHBOARD_HEADER; ?>
 <!--===============================================================================================================================-->
 
 <!-- form de creation d'article -->
