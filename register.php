@@ -1,23 +1,33 @@
 <?php
 include_once "config/config.php";
-include_once "config/db_connect.php";
+include_once "config/db_connect.php"; 
 
-include_once HEADER_PATH;
+//Check user session
+//on redirige l'utilisateur si celui-ci est deja identifié
+if(isset($_SESSION['user']))
+{
+    header("location: profil.php");
+    exit;
+}
 
 $firstname = null;
-$lastname = null;
+$lastname  = null;
 $birth_day = 0;
 $birth_month = 0;
 $birth_year = 0;
 $email = null;
+
+include_once HEADER_PATH;
+include_once SECURITY_REGISTER;
+include_once INDEX_COMPONENT_BANNER;
 ?>
 <!-- ======================================================================== -->
 
-<hr>
-<div class="row">
+
+<div class="row mt-lg-5">
     <div class="col-md-8 offset-md-2">
         <div class="row bg-dark justify-content-between rounded">
-        <h3 class="text-center text-white ml-3 my-auto text-uppercase" id="inscription" >devenez menbres </h3>
+        <h3 class="text-center text-white ml-3 my-auto text-uppercase" id="inscription" > devenez menbres </h3>
         <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#register" aria-expanded="false" aria-controls="register">
         <i class="fas fa-arrow-down"></i>
         </button>
@@ -112,6 +122,16 @@ $email = null;
                         <?php endif ?>
                     </div>
 
+                    <!-- secret for admin access -->
+                    <div class="form-group">
+                        <label for="secret" class="sr-only">Le secret des admins</label>
+                        <input type="password" class="form-control <?= isset($errors['secret']) ? "is-invalid" : null ?>" name="secret" id="secret" placeholder="Veuillez saisir le code secret">
+                        <?php if (isset($errors['secret'])) : ?>
+                            <div class="invalid-feedback d-block"> <?= $errors['secret'] ?> </div>
+                        <?php endif ?>
+                    </div>
+
+
                     <!-- agreeTerms -->
                     <div class="form-group">
                         <div class="form-check">
@@ -127,7 +147,4 @@ $email = null;
         </div>
     </div>
 </div>
-
-
-<!-- ======================================================================== -->
 <?php include_once FOOTER_PATH; ?>

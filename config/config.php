@@ -1,6 +1,6 @@
 <!-- ici la config de notre site -->
-<?php 
-
+<?php
+session_start();
 
 // On force l'affichage des messages d'erreurs
 ini_set('display_errors', 1);
@@ -11,12 +11,12 @@ error_reporting(E_ALL);
 const HEADER_PATH = "layouts/header.php";
 const FOOTER_PATH = "layouts/footer.php";
 const LOGIN_MODAL_PATH = "layouts/modal.php";
+const SECURITY_REGISTER = "security/register.php";
 
 //chemin des index component
 const INDEX_COMPONENT_BANNER = "layouts/index_component/banner.php";
 const INDEX_COMPONENT_CAROUSEL = "layouts/index_component/carousel.php";
 const INDEX_COMPONENT_ABOUTUS = "layouts/index_component/about-us.php";
-const INDEX_COMPONENT_REGISTER = "layouts/index_component/register.php";
 
 
 // Month definition
@@ -40,7 +40,7 @@ $db_user = "root";
 $db_pass = "";
 
 // Definie le nom de la base de données (dbschema, dbname)
-$db_schema = "cours_discotheque";
+$db_schema = "blog";
 
 //Infos facultatives
 
@@ -49,3 +49,5 @@ $db_port= "3306";
 
 // Definie le jeu de caractères utilisé pour les requêtes
 $db_charset = "utf8";
+
+$displayElement = false;

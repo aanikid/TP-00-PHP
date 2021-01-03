@@ -6,18 +6,18 @@ $('.card-deck').slick({
             breakpoint: 768,
             settings: {
                 arrows: true,
-                centerMode: false,
+                centerMode: true,
                 centerPadding: '40px',
-                slidesToShow: 1
+                slidesToShow: 3
             }
         },
         {
             breakpoint: 480,
             settings: {
                 arrows: true,
-                centerMode: false,
+                centerMode: true,
                 centerPadding: '40px',
-                slidesToShow: 1
+                slidesToShow: 3
             }
         }
     ]
