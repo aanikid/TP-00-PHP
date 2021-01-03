@@ -14,6 +14,10 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
 
     // 1. Recup des données
 
+    // recup du fichier
+    $illustration = isset($_POST['illustration']) ? $_POST['illustration'] : null;
+    $_SESSION['data']['illustration'] = $illustration;
+
     // recup du titre
     $title = isset($_POST['title']) ? $_POST['title'] : null;
     $_SESSION['data']['title'] = $title;
@@ -31,6 +35,28 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
     $_SESSION['data']['content'] = $content;
 
     // 2. Controle des données
+
+    $folder = 'assets/img/';
+    $illustration = basename($_FILES['illustration']['name']);
+    $maxSize = 10000000;
+    $size = filesize($_FILES['illustration']['tmp_name']);
+    $extensions = array('.png', '.gif', '.jpg', '.jpeg');
+    $extension = strrchr($_FILES['illustration']['name'], '.'); 
+    //Début des vérifications de sécurité...
+    if(!in_array($extension, $extensions)) //Si l'extension n'est pas dans le tableau
+    {
+        $errors = 'Vous devez uploader un fichier de type png, gif, jpg, jpeg, txt ou doc...';
+    }
+    if($size>$maxSize)
+    {
+        $errors = 'Le fichier est trop gros...';
+    }
+        //On formate le nom du fichier ici...
+        $illustration = strtr($illustration, 
+            'ÀÁÂÃÄÅÇÈÉÊËÌÍÎÏÒÓÔÕÖÙÚÛÜÝàáâãäåçèéêëìíîïðòóôõöùúûüýÿ', 
+            'AAAAAACEEEEIIIIOOOOOUUUUYaaaaaaceeeeiiiioooooouuuuyy');
+        $illustration = preg_replace('/([^.a-z0-9]+)/i', '-', $illustration);
+
     if (empty($title)) {
         $isValid = false;
         $errors['title'] = "Erreur sur le champ titre";
@@ -41,23 +67,25 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
         $errors['createdBy'] = "Erreur sur le champ auteur";
     }
 
-    if (!preg_match("^(0?[1-9]|[12][0-9]|3[01])[\/\-](0?[1-9]|1[012])[\/\-]\d{4}$", $createdAt)) {
+    if (!preg_match("^(0?[1-9]|[12][0-9]|3[01])[\/\-](0?[1-9]|1[012])[\/\-]\d{4}$^", $createdAt)) {
         $isValid = false;
         $errors['createdAt'] = "Erreur sur la date";
     }
     if (empty($errors)) {
         //Définition de la requete SQL
         $sql = "INSERT  INTO articles
-            (`titre`, `contenu`, `createdBy`, `createdAt`)
+            (`titre`, `contenu`, `illustration`, `createdBy`, `createdAt`)
         VALUES 
-            (:titre,:contenu,:createdBy,:createdAt)";
+            (:titre,:contenu,:illustration,:createdBy,:createdAt)";
 
         //préparation de la requete pour PDO
         $query = $pdo->prepare($sql);
 
         //Définition des paramètres de requete
         $query->bindParam(':titre', $title, PDO::PARAM_STR);
+        $query->bindParam(':titre', $title, PDO::PARAM_STR);
         $query->bindParam(':contenu', $content, PDO::PARAM_STR);
+        $query->bindParam(':illustration', $illustration, PDO::PARAM_STR);
         $query->bindParam(':createdBy', $createdBy, PDO::PARAM_STR);
         $query->bindParam(':createdAt', $createdAt, PDO::PARAM_STR);
 
@@ -85,7 +113,7 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
 
 
 
-include_once DASHBOARD_HEADER; ?>
+// include_once DASHBOARD_HEADER; ?>
 <!--===============================================================================================================================-->
 
 <!-- form de creation d'article -->
@@ -95,8 +123,12 @@ include_once DASHBOARD_HEADER; ?>
         <div class="col-12">
         <h2 class="text-primary text-center mb-lg-5">Création d'un article</h2>
         </div>
-        <form action="" method="post">
-            <!-- manque l'ajout de linput pour recuperer la photo et puis tes bon adrien -->
+
+        <form action="" method="post" action="upload.php" enctype="multipart/form-data">
+            <div>
+                <input type="hidden" name="MAX_FILE_SIZE" value="10000000">
+                Illustration (max 10Mo) : <input type="file" name="illustration" id="illustration">
+            </div> 
             <div class="row">
                 <div class="col-md-6">
                     <div class="form-groupe">
@@ -114,7 +146,7 @@ include_once DASHBOARD_HEADER; ?>
 
             <div class="form-group">
                 <label for="createdAt" class="sr-only"> date de création</label>
-                <input type="text" id="createdAt" class="form-control" name="createdAt" placeholder="date de création de l'article">
+                <input type="text" id="createdAt" class="form-control" name="createdAt" placeholder="date de création de l'article (DD/MM/YYYY)">
             </div>
 
             <div class="form-group">
