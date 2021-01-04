@@ -18,9 +18,10 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="form-group">
+                    <img id="preview" class="border border-primary img-fluid  mb-3">
                         <input type="hidden" name="MAX_FILE_SIZE" value="10000000">
                         Illustration (max 10Mo) : <input type="file" name="illustration" id="illustration">
-                        <img id="preview" class="border border-primary img-fluid mt-3 mb-3">
+                        
                     </div>
                 </div>
             </div>
