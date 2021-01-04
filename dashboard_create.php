@@ -11,17 +11,25 @@
 <div class="container">
     <div class="row">
         <div class="col-12">
-        <h2 class="text-primary text-center mb-lg-5">Création d'un article</h2>
+            <h2 class="text-primary text-center mb-lg-5">Création d'un article</h2>
         </div>
 
         <form action="" method="post" action="upload.php" enctype="multipart/form-data" novalidate>
-            <div>
-                <input type="hidden" name="MAX_FILE_SIZE" value="10000000">
-                Illustration (max 10Mo) : <input type="file" name="illustration" id="illustration">
-            </div> 
             <div class="row">
                 <div class="col-md-6">
-                    <div class="form-groupe">
+                    <div class="form-group">
+                        <input type="hidden" name="MAX_FILE_SIZE" value="10000000">
+                        Illustration (max 10Mo) : <input type="file" name="illustration" id="illustration">
+                        
+                    </div>
+                </div>
+                <div class="col-md-6">
+                <img id="preview" class=" border border-primary img-fluid mb-3">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
                         <label for="title" class="sr-only">titre de l'article</label>
                         <input type="text" id="title" name="title" class="form-control" size=80 placeholder="titre de l'article">
                     </div>
@@ -50,4 +58,3 @@
 
 <!--===============================================================================================================================-->
 <?php include_once DASHBOARD_FOOTER; ?>
-<?php include_once FOOTER_PATH; ?>
