@@ -1,30 +1,30 @@
 # TP-00-PHP
 *Créer un tout petit site dédié à l'affichage d'articles.*
 
-##Objectif: Optimisation de l'architecture, CRUD BDD, upload d'image
+## Objectif: Optimisation de l'architecture, CRUD BDD, upload d'image
 
 
 
-#Les Pages:
+# Les Pages:
 --
 
-##Front Office
+## Front Office
 ---
 
-###home
+### home
    - carousel d'article en selection
    - image 
    - titre
    - liste des 5 derniers articles publiés
 
-###articles (localhost/articles.php)
+### articles (localhost/articles.php)
    - liste de tous les articles ... 10 par pages
    - image 
    - titre
    - aperçu
    - date de publication
 
-###article (localhost/article.php?id=xxx)
+### article (localhost/article.php?id=xxx)
    - affiche un article
    - titre
    - image
@@ -35,17 +35,17 @@
    - article suivant
    - article precedent
 
-###register (localhost/register.php)
+### register (localhost/register.php)
    - Inscription de l'utilisateur (Nom, Prenom, 16 ans minimum, confirmation de l'adresse email et du mot de passe)
 
-###login (localhost/login.php)
+### login (localhost/login.php)
    - Identification de l'utilisateur
 
 
-##Back Office  (accès sécurisé)
+## Back Office  (accès sécurisé)
 ---
 
-###dashboard  (localhost/admin.php)
+### dashboard  (localhost/admin.php)
    - nombre d'articles total
    - nombre d'articles publiés
    - nombre d'utilisateurs
@@ -53,14 +53,14 @@
 ###create article (localhost/admin/article-create.php)
    - ajoute un article en BDD
 
-###edit article (localhost/admin/article-edit.php?id=xxx)
+### edit article (localhost/admin/article-edit.php?id=xxx)
    - modifier un article 
    - supprimer un article
 
-##BDD
+## BDD
 ---
 
-###article
+### article
 - id
 - title
 - excerpt (aperçu de l'article)
@@ -71,7 +71,7 @@
 - createdAt (date de creation)
 - publishedAt (date de publication)
 
-##Contributor
+## Contributor
 ---
  - Fatima MEDKOR
  - Loubna MEKDADI
