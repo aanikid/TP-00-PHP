@@ -3,7 +3,6 @@
  */
 $(document).ready(function(e) {
     $('input[type="file"]').on('change', (e) => {
-        console.log('change file');
         let that = e.currentTarget
         if (that.files && that.files[0]) {
             $(that).next('.custom-file-label').html(that.files[0].name)
